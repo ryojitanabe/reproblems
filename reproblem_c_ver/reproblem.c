@@ -355,7 +355,7 @@ void RE21(int numObjs, int numVars, double *f, double *x) {
 
   double F = 10;
   double sigma = 10;
-  double E = 2 * 10e5;
+  double E = 2 * 1e5;
   double L = 200;
 
   f[0] = L * ((2 * x1) + sqrt(2.0) * x2 + sqrt(x3) + x4);
@@ -462,7 +462,7 @@ void RE25(int numObjs, int numVars, double *f, double *x) {
   double Cf = ((4.0 * (x2 / x3) - 1) / (4.0 * (x2 / x3) - 4)) + (0.615 * x3 / x2);
   double Fmax = 1000.0;
   double S =189000.0;	    
-  double G = 11.5 * 10e+6;
+  double G = 11.5 * 1e+6;
   double K  = (G * x3 * x3 * x3 * x3) / (8 * x1 * x2 * x2 * x2);
   double lmax = 14.0;
   double lf = (Fmax / K) + 1.05 *  (x1 + 2) * x3;
@@ -1250,7 +1250,7 @@ void getObjectives(char *testProblem, int numObjs, int numVars, int numConsts, d
 }
 
 int main(int argc, char **argv) {
-  char* testProblem = "CRE32";
+  char* testProblem = "RE21";
   printf("%s\n", testProblem);
 
   int i;    

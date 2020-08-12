@@ -26,7 +26,7 @@ function f=RE21(x)
 
 	 F = 10;
 	 sigma = 10;
-	 E = 2 * 10e5;
+	 E = 2 * 1e5;
 	 L = 200;
 
 	 f(1) = L * ((2 * x1) + sqrt(2.0) * x2 + sqrt(x3) + x4);

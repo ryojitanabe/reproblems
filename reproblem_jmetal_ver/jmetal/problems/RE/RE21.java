@@ -89,7 +89,7 @@ public class RE21 extends Problem {
 
 	double F = 10;
 	double sigma = 10;
-	double E = 2 * 10e5;
+	double E = 2 * 1e5;
 	double L = 200;
 
 	f[0] = L * ((2 * x1) + Math.sqrt(2.0) * x2 + Math.sqrt(x3) + x4);

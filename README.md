@@ -1,6 +1,11 @@
-##  Supplementary website for "An Easy-to-use Real-world Multi-objective Optimization Problem Suite"
+#  An Easy-to-use Real-world Multi-objective Optimization Problem Suite
 
-- A supplementary file of the paper is available from [here](https://github.com/ryojitanabe/reproblems/blob/master/doc/re-supplementary_file.pdf)
-- Source codes of the RE test problems in jMetal, C, and Matlab/Octave can be downloaded from [https://github.com/ryojitanabe/reproblems](https://github.com/ryojitanabe/reproblems).
-  - Approximated Pareto fronts of the RE problems are available.
-  - Approximated ideal and nadir points of the RE problems are available.
+This repository provides the Java ([jMetal 4.5](http://jmetal.sourceforge.net/)), C, and Matlab/Octave implementations of the (at least not synthetic) real-world (RE) problems presented in the following paper:
+
+> Ryoji Tanabe and Hisao Ishibuchi, **An easy-to-use real-world multi-objective optimization problem suite**, Applied Soft Computing, Vol. 89, pp. 106078 (2020), [link](https://www.sciencedirect.com/science/article/pii/S1568494620300181), [pdf](https://ryojitanabe.github.io/pdf/ti-reproblems-asoc2020.pdf), [supplementary-pdf](https://ryojitanabe.github.io/pdf/ti-reproblems-asoc2020-supp.pdf)
+
+In any implementation, the objective values of a randomly generated solution on the RE21 problem are shown in the default setting. For the sake of simplicity, the name of each RE problem does not include the number of decision variables. For example, RE2-4-1 is denoted as RE21 in the source code. The supplementary file describes details of the RE problems. This repository also provides data of approximated Pareto fronts of the problems.
+
+## Change log (YY.MM.DD)
+
+* [2020.8.12] Bugs in the source code of RE21 and RE25 have been fixed. In RE21, ``E = 2 * 10e5`` was replaced with ``E = 2 * 1e5``. Also, in RE25, ``G = 11.5 * 10e+6`` was replaced with ``G = 11.5 * 1e+6``. It should be noted that the bug-fixed versions of RE21 and RE25 are consistent with their original definitions but do not reproduce the results shown in the Applied Soft Computing paper. The data of approximated Pareto fronts of RE21 and RE25 are also incorrect.

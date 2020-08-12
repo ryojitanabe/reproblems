@@ -104,7 +104,7 @@ public class RE25 extends Problem {
 	double Cf = ((4.0 * (x2 / x3) - 1) / (4.0 * (x2 / x3) - 4)) + (0.615 * x3 / x2);
 	double Fmax = 1000.0;
 	double S =189000.0;	    
-	double G = 11.5 * 10e+6;
+	double G = 11.5 * 1e+6;
 	double K  = (G * x3 * x3 * x3 * x3) / (8 * x1 * x2 * x2 * x2);
 	double lmax = 14.0;
 	double lf = (Fmax / K) + 1.05 *  (x1 + 2) * x3;
