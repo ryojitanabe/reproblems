@@ -88,7 +88,7 @@ public class NSGAII_main {
         
 	indicators = null ;
 
-	String testFunc = "CRE21";
+	String testFunc = "RE21";
 	
 	if ("RE21".equals(testFunc)) problem = new RE21();
 	else if ("RE22".equals(testFunc)) problem = new RE22();

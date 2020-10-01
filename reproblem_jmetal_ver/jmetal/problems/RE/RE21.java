@@ -89,11 +89,11 @@ public class RE21 extends Problem {
 
 	double F = 10;
 	double sigma = 10;
-	double E = 2 * 1e5;
+	double E = 200000;
 	double L = 200;
 
 	f[0] = L * ((2 * x1) + Math.sqrt(2.0) * x2 + Math.sqrt(x3) + x4);
-	f[1] = ((F * L) / E) * ((2.0 / x2) + (2.0 * Math.sqrt(2.0) / x2) - (2.0 * Math.sqrt(2.0) / x3) + (2.0 / x4));
+	f[1] = ((F * L) / E) * ((2.0 / x1) + (2.0 * Math.sqrt(2.0) / x2) - (2.0 * Math.sqrt(2.0) / x3) + (2.0 / x4));
     
 	for (int i = 0; i < numberOfObjectives_; i++) solution.setObjective(i, f[i]);        
     } // evaluate
