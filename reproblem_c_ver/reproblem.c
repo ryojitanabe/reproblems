@@ -359,7 +359,7 @@ void RE21(int numObjs, int numVars, double *f, double *x) {
   double L = 200;
 
   f[0] = L * ((2 * x1) + sqrt(2.0) * x2 + sqrt(x3) + x4);
-  f[1] = ((F * L) / E) * ((2.0 / x2) + (2.0 * sqrt(2.0) / x2) - (2.0 * sqrt(2.0) / x3) + (2.0 / x4));  
+  f[1] = ((F * L) / E) * ((2.0 / x1) + (2.0 * sqrt(2.0) / x2) - (2.0 * sqrt(2.0) / x3) + (2.0 / x4));  
 }
 
 void RE22(int numObjs, int numVars, double *f, double *x) {
