@@ -1,6 +1,6 @@
 #  An Easy-to-use Real-world Multi-objective Optimization Problem Suite
 
-This repository provides the Java ([jMetal 4.5](http://jmetal.sourceforge.net/)), C, and Matlab/Octave implementations of the (at least not synthetic) real-world (RE) problems presented in the following paper:
+This repository provides the Java ([jMetal 4.5](http://jmetal.sourceforge.net/)), C, Matlab/Octave, and Python implementations of the (at least not synthetic) real-world (RE) problems presented in the following paper:
 
 > Ryoji Tanabe and Hisao Ishibuchi, **An easy-to-use real-world multi-objective optimization problem suite**, Applied Soft Computing, Vol. 89, pp. 106078 (2020), [link](https://www.sciencedirect.com/science/article/pii/S1568494620300181), [pdf](https://arxiv.org/abs/2009.12867), [supplementary-pdf](https://github.com/ryojitanabe/reproblems/blob/master/doc/re-supplementary_file.pdf)
 
@@ -9,6 +9,12 @@ In any implementation, the objective values of a randomly generated solution on 
 The RE problem set is also available in the last stable version of jMetal ([jMetal 5.10](https://github.com/jMetal/jMetal)).
 
 ## Change log (YY.MM.DD)
+
+* [2020.11.1] A Python implementation of the RE problem has been released.
+
+* [2020.11.1] A bug in the C code of RE24 has been fixed. The upper bound for the second variable in RE24 was fixed by replacing ``upperBounds[0] = 50;`` with ``upperBounds[1] = 50;``.
+
+In the second objective function in RE21, ``(2.0 / x2)`` was replaced with ``(2.0 / x1)``. The data of approximated Pareto fronts of RE21 and RE25 have been updated.
 
 * [2020.10.2] [Issue \#2](https://github.com/ryojitanabe/reproblems/issues/2) and [\#3](https://github.com/ryojitanabe/reproblems/pull/3): Bugs in the source code of RE21 have been fixed. In the second objective function in RE21, ``(2.0 / x2)`` was replaced with ``(2.0 / x1)``. The data of approximated Pareto fronts of RE21 and RE25 have been updated.
 

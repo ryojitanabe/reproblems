@@ -210,7 +210,7 @@ void setBounds(char *testProblem, int numVars, double *lowerBounds, double *uppe
     lowerBounds[0] = 0.5;
     lowerBounds[1] = 0.5;   
     upperBounds[0] = 4;
-    upperBounds[0] = 50;
+    upperBounds[1] = 50;
   }
   else if (testProblem == "RE25") {            
     lowerBounds[0] = 1;   
@@ -820,7 +820,7 @@ void RE42(int numObjs, int numVars, double *f, double *x) {
     else constraintFuncs[i] = 0;
   }
 
-  f[3] = constraintFuncs[0] + constraintFuncs[1] + constraintFuncs[2] + constraintFuncs[3] + constraintFuncs[4] + constraintFuncs[5] + constraintFuncs[6] + constraintFuncs[7] + constraintFuncs[8] + constraintFuncs[9];  	  
+  f[3] = constraintFuncs[0] + constraintFuncs[1] + constraintFuncs[2] + constraintFuncs[3] + constraintFuncs[4] + constraintFuncs[5] + constraintFuncs[6] + constraintFuncs[7] + constraintFuncs[8];  	  
 }
 
 void RE61(int numObjs, int numVars, double *f, double *x) {
