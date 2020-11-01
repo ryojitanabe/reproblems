@@ -14,8 +14,6 @@ The RE problem set is also available in the last stable version of jMetal ([jMet
 
 * [2020.11.1] A bug in the C code of RE24 has been fixed. The upper bound for the second variable in RE24 was fixed by replacing ``upperBounds[0] = 50;`` with ``upperBounds[1] = 50;``.
 
-In the second objective function in RE21, ``(2.0 / x2)`` was replaced with ``(2.0 / x1)``. The data of approximated Pareto fronts of RE21 and RE25 have been updated.
-
 * [2020.10.2] [Issue \#2](https://github.com/ryojitanabe/reproblems/issues/2) and [\#3](https://github.com/ryojitanabe/reproblems/pull/3): Bugs in the source code of RE21 have been fixed. In the second objective function in RE21, ``(2.0 / x2)`` was replaced with ``(2.0 / x1)``. The data of approximated Pareto fronts of RE21 and RE25 have been updated.
 
 * [2020.8.12] [Issue \#1](https://github.com/ryojitanabe/reproblems/issues/1): Bugs in the source code of RE21 and RE25 have been fixed. In RE21, ``E = 2 * 10e5`` was replaced with ``E = 2 * 1e5``. Also, in RE25, ``G = 11.5 * 10e+6`` was replaced with ``G = 11.5 * 1e+6``. It should be noted that the bug-fixed versions of RE21 and RE25 are consistent with their original definitions but do not reproduce the results shown in the Applied Soft Computing paper. [2020.10.2] ~~The data of approximated Pareto fronts of RE21 and RE25 are also incorrect.~~ The data of approximated Pareto fronts of RE21 and RE25 have been updated.
