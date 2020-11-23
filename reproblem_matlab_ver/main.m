@@ -34,7 +34,7 @@ switch testProblem
 	    tmpVar = (F / sigma);
 	    tmpVar2 = 3 * tmpVar;
 	    
-	    lowerBounds = [tmpVar sqrt(tmpVar) sqrt(tmpVar) tmpVar];
+	    lowerBounds = [tmpVar sqrt(2)*tmpVar sqrt(2)*tmpVar tmpVar];
 	    upperBounds = [tmpVar2 tmpVar2 tmpVar2 tmpVar2];
        case "RE22"
 	    numObjs = 2;
