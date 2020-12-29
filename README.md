@@ -10,6 +10,8 @@ The RE problem set is also available in the last stable version of jMetal ([jMet
 
 ## Change log (YY.MM.DD)
 
+* [2020.12.29] [Issue \#6](https://github.com/ryojitanabe/reproblems/issues/6):  Typos in the supplementary file have been fixed. 
+
 * [2020.11.24] [Issue \#5](https://github.com/ryojitanabe/reproblems/issues/5):  Typos in the supplementary file have been fixed. 
 
 * [2020.11.23] [Issue \#4](https://github.com/ryojitanabe/reproblems/issues/4):  A bug in the Matlab code of RE21 has been fixed. The lower bounds for the second and third variables in RE21 were fixed by replacing ``sqrt(tmpVar)`` with ``sqrt(2)*tmpVar``.
