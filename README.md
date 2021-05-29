@@ -10,6 +10,8 @@ The RE problem set is also available in the last stable version of jMetal ([jMet
 
 ## Change log (YY.MM.DD)
 
+* [2021.5.29] [Issue \#8](https://github.com/ryojitanabe/reproblems/issues/8):  A bug in the code of RE42 and CRE32 has been fixed. The sixth constraint function in RE42 and CRE32 was fixed by replacing ``50000.0 - DWT`` with ``500000.0 - DWT``. A typo in the supplementary file has also been fixed.
+
 * [2021.5.28] [Issue \#7](https://github.com/ryojitanabe/reproblems/issues/7):  Typos in the supplementary file have been fixed.
 
 * [2020.12.29] [Issue \#6](https://github.com/ryojitanabe/reproblems/issues/6):  Typos in the supplementary file have been fixed. 

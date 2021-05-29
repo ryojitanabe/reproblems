@@ -806,7 +806,7 @@ void RE42(int numObjs, int numVars, double *f, double *x) {
   constraintFuncs[2] = -(x_L / x_T) + 19.0;
   constraintFuncs[3] = 0.45 * pow(DWT, 0.31) - x_T;
   constraintFuncs[4] = 0.7 * x_D + 0.7 - x_T;
-  constraintFuncs[5] = 50000.0 - DWT;
+  constraintFuncs[5] = 500000.0 - DWT;
   constraintFuncs[6] = DWT - 3000.0;
   constraintFuncs[7] = 0.32 - Fn;
 
@@ -1179,7 +1179,7 @@ void CRE32(int numObjs, int numVars, int numConsts, double *f, double *x, double
   g[2] = -(x_L / x_T) + 19.0;
   g[3] = 0.45 * pow(DWT, 0.31) - x_T;
   g[4] = 0.7 * x_D + 0.7 - x_T;
-  g[5] = 50000.0 - DWT;
+  g[5] = 500000.0 - DWT;
   g[6] = DWT - 3000.0;
   g[7] = 0.32 - Fn;
 

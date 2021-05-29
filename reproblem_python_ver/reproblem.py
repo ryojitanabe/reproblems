@@ -687,7 +687,7 @@ class RE42():
         constraintFuncs[2] = -(x_L / x_T) + 19.0
         constraintFuncs[3] = 0.45 * np.power(DWT, 0.31) - x_T
         constraintFuncs[4] = 0.7 * x_D + 0.7 - x_T
-        constraintFuncs[5] = 50000.0 - DWT
+        constraintFuncs[5] = 500000.0 - DWT
         constraintFuncs[6] = DWT - 3000.0
         constraintFuncs[7] = 0.32 - Fn
 
@@ -1191,7 +1191,7 @@ class CRE32():
         constraintFuncs[2] = -(x_L / x_T) + 19.0
         constraintFuncs[3] = 0.45 * np.power(DWT, 0.31) - x_T
         constraintFuncs[4] = 0.7 * x_D + 0.7 - x_T
-        constraintFuncs[5] = 50000.0 - DWT
+        constraintFuncs[5] = 500000.0 - DWT
         constraintFuncs[6] = DWT - 3000.0
         constraintFuncs[7] = 0.32 - Fn
 

@@ -75,7 +75,7 @@ function f=RE42(x)
 	constraintFuncs(3) = -(x_L / x_T) + 19.0;
 	constraintFuncs(4) = 0.45 * power(DWT, 0.31) - x_T;
 	constraintFuncs(5) = 0.7 * x_D + 0.7 - x_T;
-	constraintFuncs(6) = 50000.0 - DWT;
+	constraintFuncs(6) = 500000.0 - DWT;
 	constraintFuncs(7) = DWT - 3000.0;
 	constraintFuncs(8) = 0.32 - Fn;
 
